@@ -1,5 +1,5 @@
+import Scene from '../components/Scene'
 import styles from './page.module.css'
-import Scene from '@/components/Scene'
 
 
 
