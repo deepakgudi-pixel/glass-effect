@@ -1,9 +1,7 @@
 import styles from './page.module.css'
-import dynamic from 'next/dynamic'
+import Scene from '@/components/Scene'
 
-const Scene = dynamic(() => import('@/components/Scene'), {
-    ssr: false,
-})
+
 
 export default function Home() {
   return (
